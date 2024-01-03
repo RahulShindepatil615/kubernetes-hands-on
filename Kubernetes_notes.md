@@ -27,11 +27,9 @@ Pod is wrapper around the container
 
 ### how to debug a pod :
 
-'''
-kubectl describe pod <pod name> which gives the every details about the pod.
-
-'''
-- kubectl logs <Name of the pod> -c <name of the container>
+	kubectl describe pod <pod name> which gives the every details about the pod.
+	
+	kubectl logs <Name of the pod> -c <name of the container>
 
   
   
@@ -91,9 +89,8 @@ kubectl describe pod <pod name> which gives the every details about the pod.
 	- Deployment is the configuration written in the manifest.
 
 	- how to do list all the resources in the namespaces?
-	'''
 		kubectl get all
-	'''
+	
 - what are the different types of services in kubernetes ?
 	- NodePort:
 	- ClusterIP:
